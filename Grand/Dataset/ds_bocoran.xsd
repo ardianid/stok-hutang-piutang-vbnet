@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_bocoran" targetNamespace="http://tempuri.org/ds_bocoran.xsd" xmlns:mstns="http://tempuri.org/ds_bocoran.xsd" xmlns="http://tempuri.org/ds_bocoran.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_bocoran" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ds_bocoran" msprop:Generator_UserDSName="ds_bocoran">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nobukti" msprop:Generator_ColumnVarNameInTable="columnnobukti" msprop:Generator_ColumnPropNameInRow="nobukti" msprop:Generator_ColumnPropNameInTable="nobuktiColumn" msprop:Generator_UserColumnName="nobukti" type="xs:string" minOccurs="0" />
+              <xs:element name="tglmuat" msprop:Generator_ColumnVarNameInTable="columntglmuat" msprop:Generator_ColumnPropNameInRow="tglmuat" msprop:Generator_ColumnPropNameInTable="tglmuatColumn" msprop:Generator_UserColumnName="tglmuat" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="nobukti_gd" msprop:Generator_ColumnVarNameInTable="columnnobukti_gd" msprop:Generator_ColumnPropNameInRow="nobukti_gd" msprop:Generator_ColumnPropNameInTable="nobukti_gdColumn" msprop:Generator_UserColumnName="nobukti_gd" type="xs:string" minOccurs="0" />
+              <xs:element name="nopol" msprop:Generator_ColumnVarNameInTable="columnnopol" msprop:Generator_ColumnPropNameInRow="nopol" msprop:Generator_ColumnPropNameInTable="nopolColumn" msprop:Generator_UserColumnName="nopol" type="xs:string" minOccurs="0" />
+              <xs:element name="nama_krani" msprop:Generator_ColumnVarNameInTable="columnnama_krani" msprop:Generator_ColumnPropNameInRow="nama_krani" msprop:Generator_ColumnPropNameInTable="nama_kraniColumn" msprop:Generator_UserColumnName="nama_krani" type="xs:string" minOccurs="0" />
+              <xs:element name="_x0031_9LTR" msprop:Generator_ColumnVarNameInTable="column19LTR" msprop:Generator_ColumnPropNameInRow="_19LTR" msprop:Generator_ColumnPropNameInTable="_19LTRColumn" msprop:Generator_UserColumnName="19LTR" type="xs:decimal" minOccurs="0" />
+              <xs:element name="_x0031_50ML_x002F_50" msprop:Generator_ColumnVarNameInTable="_column150ML_50" msprop:Generator_ColumnPropNameInRow="_150ML_50" msprop:Generator_ColumnPropNameInTable="_150ML_50Column" msprop:Generator_UserColumnName="150ML/50" type="xs:decimal" minOccurs="0" />
+              <xs:element name="_x0032_40ML_x002F_48" msprop:Generator_ColumnVarNameInTable="_column240ML_48" msprop:Generator_ColumnPropNameInRow="_240ML_48" msprop:Generator_ColumnPropNameInTable="_240ML_48Column" msprop:Generator_UserColumnName="240ML/48" type="xs:decimal" minOccurs="0" />
+              <xs:element name="_x0033_30ML_x002F_248" msprop:Generator_ColumnVarNameInTable="_column330ML_248" msprop:Generator_ColumnPropNameInRow="_330ML_248" msprop:Generator_ColumnPropNameInTable="_330ML_248Column" msprop:Generator_UserColumnName="330ML/248" type="xs:decimal" minOccurs="0" />
+              <xs:element name="_x0035_00ML_x002F_24" msprop:Generator_ColumnVarNameInTable="_column500ML_24" msprop:Generator_ColumnPropNameInRow="_500ML_24" msprop:Generator_ColumnPropNameInTable="_500ML_24Column" msprop:Generator_UserColumnName="500ML/24" type="xs:decimal" minOccurs="0" />
+              <xs:element name="_x0036_00ML_x002F_24" msprop:Generator_ColumnVarNameInTable="_column600ML_24" msprop:Generator_ColumnPropNameInRow="_600ML_24" msprop:Generator_ColumnPropNameInTable="_600ML_24Column" msprop:Generator_UserColumnName="600ML/24" type="xs:decimal" minOccurs="0" />
+              <xs:element name="_x0031_500ML_x002F_12" msprop:Generator_ColumnVarNameInTable="_column1500ML_12" msprop:Generator_ColumnPropNameInRow="_1500ML_12" msprop:Generator_ColumnPropNameInTable="_1500ML_12Column" msprop:Generator_UserColumnName="1500ML/12" type="xs:decimal" minOccurs="0" />
+              <xs:element name="_x0031_9LTR.b" msprop:Generator_ColumnVarNameInTable="_column19LTR_b" msprop:Generator_ColumnPropNameInRow="_19LTR_b" msprop:Generator_ColumnPropNameInTable="_19LTR_bColumn" msprop:Generator_UserColumnName="19LTR.b" type="xs:decimal" minOccurs="0" />
+              <xs:element name="_x0031_50ML_x002F_50.b" msprop:Generator_ColumnVarNameInTable="_column150ML_50_b" msprop:Generator_ColumnPropNameInRow="_150ML_50_b" msprop:Generator_ColumnPropNameInTable="_150ML_50_bColumn" msprop:Generator_UserColumnName="150ML/50.b" type="xs:decimal" minOccurs="0" />
+              <xs:element name="_x0032_40ML_x002F_48.b" msprop:Generator_ColumnVarNameInTable="_column240ML_48_b" msprop:Generator_ColumnPropNameInRow="_240ML_48_b" msprop:Generator_ColumnPropNameInTable="_240ML_48_bColumn" msprop:Generator_UserColumnName="240ML/48.b" type="xs:decimal" minOccurs="0" />
+              <xs:element name="_x0033_30ML_x002F_248.b" msprop:Generator_ColumnVarNameInTable="_column330ML_248_b" msprop:Generator_ColumnPropNameInRow="_330ML_248_b" msprop:Generator_ColumnPropNameInTable="_330ML_248_bColumn" msprop:Generator_UserColumnName="330ML/248.b" type="xs:decimal" minOccurs="0" />
+              <xs:element name="_x0035_00ML_x002F_24.b" msprop:Generator_ColumnVarNameInTable="_column500ML_24_b" msprop:Generator_ColumnPropNameInRow="_500ML_24_b" msprop:Generator_ColumnPropNameInTable="_500ML_24_bColumn" msprop:Generator_UserColumnName="500ML/24.b" type="xs:decimal" minOccurs="0" />
+              <xs:element name="_x0036_00ML_x002F_24.b" msprop:Generator_ColumnVarNameInTable="_column600ML_24_b" msprop:Generator_ColumnPropNameInRow="_600ML_24_b" msprop:Generator_ColumnPropNameInTable="_600ML_24_bColumn" msprop:Generator_UserColumnName="600ML/24.b" type="xs:decimal" minOccurs="0" />
+              <xs:element name="_x0031_500ML_x002F_12.b" msprop:Generator_ColumnVarNameInTable="_column1500ML_12_b" msprop:Generator_ColumnPropNameInRow="_1500ML_12_b" msprop:Generator_ColumnPropNameInTable="_1500ML_12_bColumn" msprop:Generator_UserColumnName="1500ML/12.b" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

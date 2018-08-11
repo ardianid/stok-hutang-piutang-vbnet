@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_jualbyitem" targetNamespace="http://tempuri.org/ds_jualbyitem.xsd" xmlns:mstns="http://tempuri.org/ds_jualbyitem.xsd" xmlns="http://tempuri.org/ds_jualbyitem.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_jualbyitem" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ds_jualbyitem" msprop:Generator_UserDSName="ds_jualbyitem">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="tanggal" msprop:Generator_ColumnVarNameInTable="columntanggal" msprop:Generator_ColumnPropNameInRow="tanggal" msprop:Generator_ColumnPropNameInTable="tanggalColumn" msprop:Generator_UserColumnName="tanggal" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="nama_karyawan" msprop:Generator_ColumnVarNameInTable="columnnama_karyawan" msprop:Generator_ColumnPropNameInRow="nama_karyawan" msprop:Generator_ColumnPropNameInTable="nama_karyawanColumn" msprop:Generator_UserColumnName="nama_karyawan" type="xs:string" minOccurs="0" />
+              <xs:element name="_x0031_50ML_x002F_50" msprop:Generator_ColumnVarNameInTable="_column150ML_50" msprop:Generator_ColumnPropNameInRow="_150ML_50" msprop:Generator_ColumnPropNameInTable="_150ML_50Column" msprop:Generator_UserColumnName="150ML/50" type="xs:int" minOccurs="0" />
+              <xs:element name="_x0032_40ML_x002F_48" msprop:Generator_ColumnVarNameInTable="_column240ML_48" msprop:Generator_ColumnPropNameInRow="_240ML_48" msprop:Generator_ColumnPropNameInTable="_240ML_48Column" msprop:Generator_UserColumnName="240ML/48" type="xs:int" minOccurs="0" />
+              <xs:element name="_x0035_00ML_x002F_24" msprop:Generator_ColumnVarNameInTable="_column500ML_24" msprop:Generator_ColumnPropNameInRow="_500ML_24" msprop:Generator_ColumnPropNameInTable="_500ML_24Column" msprop:Generator_UserColumnName="500ML/24" type="xs:int" minOccurs="0" />
+              <xs:element name="_x0036_00ML_x002F_24" msprop:Generator_ColumnVarNameInTable="_column600ML_24" msprop:Generator_ColumnPropNameInRow="_600ML_24" msprop:Generator_ColumnPropNameInTable="_600ML_24Column" msprop:Generator_UserColumnName="600ML/24" type="xs:int" minOccurs="0" />
+              <xs:element name="_x0031_500ML_x002F_12" msprop:Generator_ColumnVarNameInTable="_column1500ML_12" msprop:Generator_ColumnPropNameInRow="_1500ML_12" msprop:Generator_ColumnPropNameInTable="_1500ML_12Column" msprop:Generator_UserColumnName="1500ML/12" type="xs:int" minOccurs="0" />
+              <xs:element name="_x0031_9LTR" msprop:Generator_ColumnVarNameInTable="column19LTR" msprop:Generator_ColumnPropNameInRow="_19LTR" msprop:Generator_ColumnPropNameInTable="_19LTRColumn" msprop:Generator_UserColumnName="19LTR" type="xs:int" minOccurs="0" />
+              <xs:element name="_x0033_30ML_x002F_24" msprop:Generator_ColumnVarNameInTable="_column330ML_24" msprop:Generator_ColumnPropNameInRow="_330ML_24" msprop:Generator_ColumnPropNameInTable="_330ML_24Column" msprop:Generator_UserColumnName="330ML/24" type="xs:int" minOccurs="0" />
+              <xs:element name="ins_gln" msprop:Generator_ColumnVarNameInTable="columnins_gln" msprop:Generator_ColumnPropNameInRow="ins_gln" msprop:Generator_ColumnPropNameInTable="ins_glnColumn" msprop:Generator_UserColumnName="ins_gln" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ins_dus" msprop:Generator_ColumnVarNameInTable="columnins_dus" msprop:Generator_ColumnPropNameInRow="ins_dus" msprop:Generator_ColumnPropNameInTable="ins_dusColumn" msprop:Generator_UserColumnName="ins_dus" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ins_gln_per" msprop:Generator_ColumnVarNameInTable="columnins_gln_per" msprop:Generator_ColumnPropNameInRow="ins_gln_per" msprop:Generator_ColumnPropNameInTable="ins_gln_perColumn" msprop:Generator_UserColumnName="ins_gln_per" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ins_dus_per" msprop:Generator_ColumnVarNameInTable="columnins_dus_per" msprop:Generator_ColumnPropNameInRow="ins_dus_per" msprop:Generator_ColumnPropNameInTable="ins_dus_perColumn" msprop:Generator_UserColumnName="ins_dus_per" type="xs:decimal" minOccurs="0" />
+              <xs:element name="hit_gln" msprop:Generator_ColumnVarNameInTable="columnhit_gln" msprop:Generator_ColumnPropNameInRow="hit_gln" msprop:Generator_ColumnPropNameInTable="hit_glnColumn" msprop:Generator_UserColumnName="hit_gln" type="xs:decimal" minOccurs="0" />
+              <xs:element name="hit_dus" msprop:Generator_ColumnVarNameInTable="columnhit_dus" msprop:Generator_ColumnPropNameInRow="hit_dus" msprop:Generator_ColumnPropNameInTable="hit_dusColumn" msprop:Generator_UserColumnName="hit_dus" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
